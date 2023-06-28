@@ -4,7 +4,7 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className='w-[375px] mx-auto border-2 border-b-0 md:w-[768px]'>
+    <div className='w-[375px] mx-auto border-2 border-b-0 sm:w-[640px] md:w-[1080px]'>
       
       <div className='container h-[58px] flex justify-normal items-center'>
         <div className="cursor-pointer">
