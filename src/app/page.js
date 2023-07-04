@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export default function Home() {
   return (
-    <div className=" lg:w-[1080px] mx-auto bg-slate-100">
+    <div className=" lg:w-[1080px] mx-auto bg-slate-100 h-screen">
       <div className="max-[1024px]:w-[83%] lg:w-[928px] mx-auto lg:h-[600px] md:h-[463px] max-[640px]:h-[570px] flex justify-between max-[640px]:block">
         <div className="w-auto">
           <div className="w-[160px] md:w-[214px] h-[28px] lg:mt-[81px] md:mt-[55px]">
