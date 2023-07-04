@@ -63,7 +63,7 @@ export default function Home() {
                 <div className="mx-auto">
                   <Link
                     className="flex mx-auto text-[10px] md:text-[14px] max-[640px]:mt-[15px] bg-[#F03738] text-white w-[130px] md:w-[194px] h-[40px] rounded-lg md:mb-[35px] md:mt-[25px] lg:mb-[55px] lg:mt-[36px]"
-                    href="/">
+                    href="/account-open">
                     <span className="flex justify-normal items-center mx-auto">
                       Open a New Account
                       <span className="ml-0.5 md:ml-2 text-sm md:text-lg">
