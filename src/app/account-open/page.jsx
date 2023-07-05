@@ -13,7 +13,7 @@ const page = () => {
 procedure. Until then, the account will be debit restricted and only credit transactions will be allowed in the account.)</p>
       </div>
       
-      <div>
+      <div className='drop-shadow-md'>
         <Tabs/>
       </div>
     </div>

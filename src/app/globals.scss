@@ -19,16 +19,12 @@
   }
   
   .container {
-    
-    
-    
-    
     margin: 20px auto 50px;
-    border: 1px solid rgba(0, 0, 0, 0.274);
   }
   
   .bloc-tabs {
     display: flex;
+    background: #F4F4F4;
   }
   .tabs {
   
@@ -37,34 +33,32 @@
     width: 50%;
     background: rgba(128, 128, 128, 0.075);
     cursor: pointer;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+
     box-sizing: content-box;
     position: relative;
     outline: none;
+    color: #9B9B9B;
+    border-radius: 8px 8px 0 0;
   }
   .tabs:not(:last-child){
-    border-right: 1px solid rgba(0, 0, 0, 0.274);
+    margin-right: 10px;
   }
   
   .active-tabs  {
     background: #BEBDBD;
     border-bottom: 1px solid transparent;
+    color: #fff;
   }
   
   
   
-  
-  button {
-    border: none;
-    
-  }
   .content-tabs {
     flex-grow : 1;
     height: 89%;
   }
   .content {
     background: #F4F4F4;
-   
+    padding-top: 20px;
     height: 100%;
     display: none;
   }
