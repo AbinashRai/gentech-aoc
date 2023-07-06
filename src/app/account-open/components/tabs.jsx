@@ -1096,7 +1096,7 @@ function Tabs() {
           </div>
         </div>
       </div>
-      <Modalpage isVisible={showModal} />
+      <Modalpage isVisible={showModal} onClose={() => setShowModal(false)} />
     </Fragment>
   );
 }

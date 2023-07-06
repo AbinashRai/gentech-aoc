@@ -1,13 +1,15 @@
 import { GrClose } from "react-icons/gr";
 
-const Modalpage = ({ isVisible }) => {
+const Modalpage = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
   return (
     <div>
-      <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center">
+      <div
+        className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center"
+        onClick={() => onClose()}>
         <div className="w-[500px] h-[300px] text-center bg-white rounded-lg flex flex-col">
           <div className="place-self-end">
-            <button className="pr-3 pt-3">
+            <button className="pr-3 pt-3" onClick={() => onClose()}>
               <GrClose />
             </button>
           </div>
