@@ -76,11 +76,11 @@ function Tabs() {
                       href="/">
                       Apply Now
                     </Link>
-                    <button
+                    <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      onClick={() => setShowModal(true)}>
+                      href="/">
                       Details
-                    </button>
+                    </Link>
                   </div>
                 </div>
 
