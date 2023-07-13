@@ -78,7 +78,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -113,7 +114,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -148,7 +150,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -183,7 +186,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -218,7 +222,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -253,7 +258,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -295,7 +301,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -330,7 +337,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -366,7 +374,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -401,7 +410,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -436,7 +446,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -478,7 +489,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -513,7 +525,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -548,7 +561,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -583,7 +597,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -618,7 +633,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -653,7 +669,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -695,7 +712,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -730,7 +748,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -765,7 +784,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -800,7 +820,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -835,7 +856,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -870,7 +892,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -911,7 +934,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -946,7 +970,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -981,7 +1006,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
@@ -1016,7 +1042,8 @@ function Tabs() {
                     </Link>
                     <Link
                       className="border-[1px] px-7 py-2 border-[#E53E3E] rounded-md text-[#E53E3E] text-[14px]"
-                      href="/">
+                      href="#"
+                      onClick={() => setShowModal(true)}>
                       Details
                     </Link>
                   </div>
