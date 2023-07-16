@@ -7,22 +7,6 @@ function Tabs() {
   const [showModal, setShowModal] = useState(false);
   const [toggleState, setToggleState] = useState(1);
 
-  useEffect(() => {
-    if (showModal) {
-      document.body.classList.add("backdrop-blur-sm");
-    } else {
-      document.body.classList.remove("backdrop-blur-sm");
-    }
-  }, [showModal]);
-
-  useEffect(() => {
-    if (showModal) {
-      document.body.classList.add("backdrop-blur-sm");
-    } else {
-      document.body.classList.remove("backdrop-blur-sm");
-    }
-  }, [showModal]);
-
   const toggleTab = (index) => {
     setToggleState(index);
   };

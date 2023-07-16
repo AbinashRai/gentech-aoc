@@ -5,32 +5,14 @@ import { Fragment, useState, useEffect } from "react";
 import Link from "next/link";
 import Modalpage from "@/app/components/Modalpage";
 
-function Tabs() {
+function page() {
   const [showModal, setShowModal] = useState(false);
   const [toggleState, setToggleState] = useState(1);
-
-  useEffect(() => {
-    if (showModal) {
-      document.body.classList.add("backdrop-blur-sm");
-    } else {
-      document.body.classList.remove("backdrop-blur-sm");
-    }
-  }, [showModal]);
-
-  useEffect(() => {
-    if (showModal) {
-      document.body.classList.add("backdrop-blur-sm");
-    } else {
-      document.body.classList.remove("backdrop-blur-sm");
-    }
-  }, [showModal]);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
-}
 
-const page = () => {
   return (
     <div className="lg:w-[1080px] mx-auto bg-[#f6f9fa] h-screen">
       <div className="text-center">
@@ -110,6 +92,6 @@ const page = () => {
       </div>
     </div>
   );
-};
+}
 
 export default page;
