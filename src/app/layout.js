@@ -2,6 +2,7 @@
 import "./globals.scss";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import { Fragment, useState } from "react";
 
 export const metadata = {
   title: "Online Account Opening Portal",
