@@ -2,7 +2,7 @@
 import "./globals.scss";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { Fragment, useState } from "react";
+import Newpage from "./components/Newpage";
 
 export const metadata = {
   title: "Online Account Opening Portal",
@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Newpage />
         <Footer />
       </body>
     </html>

@@ -1,12 +1,30 @@
+"use client";
+
+import { useEffect } from "react";
 import { GrClose } from "react-icons/gr";
 
 const Modalpage = ({ isVisible, onClose }) => {
+  useEffect(() => {
+    if (isVisible) {
+      document.body.classList.add("blur");
+    } else {  
+      document.body.classList.remove("blur");
+    }
+  }, [isVisible]);
+
   if (!isVisible) return null;
+
+  const handleBackgroundClick = (event) => {
+    if (event.target === event.currentTarget) {
+      onClose();
+    }
+  };
+
   return (
     <div
       className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center"
-      onClick={() => onClose()}>
-      <div className="w-[500px] h-[300px] text-center bg-white rounded-lg flex flex-col">
+      onClick={handleBackgroundClick}>
+      <div className="w-[500px] h-[300px] text-center bg-white rounded-lg flex flex-col no-blur">
         <div className="place-self-end">
           <button className="pr-3 pt-3" onClick={() => onClose()}>
             <GrClose />

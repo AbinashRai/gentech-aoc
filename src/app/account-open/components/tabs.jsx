@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, useState, useEffect } from "react";
+import { Fragment, useState } from "react";
 import Link from "next/link";
 import Modalpage from "@/app/components/Modalpage";
 

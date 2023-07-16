@@ -2,75 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-
 // .container {
 //   width: 928px;
 //   @apply mx-auto;
 // }
 
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: #fff;
-  }
-  
-  .container {
-    margin: 20px auto 50px;
-  }
-  
-  .bloc-tabs {
-    display: flex;
-    background: #F4F4F4;
-  }
-  .tabs {
-  
-    padding: 15px;
-    text-align: center;
-    width: 50%;
-    background: rgba(128, 128, 128, 0.075);
-    cursor: pointer;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    box-sizing: content-box;
-    position: relative;
-    outline: none;
-    color: #9B9B9B;
-    border-radius: 8px 8px 0 0;
-  }
-  .tabs:not(:last-child){
-    margin-right: 10px;
-  }
-  
-  .active-tabs  {
-    background: #BEBDBD;
-    border-bottom: 1px solid transparent;
-    color: #fff;
-  }
-  
-  
-  
-  .content-tabs {
-    flex-grow : 1;
-    height: 89%;
-  }
-  .content {
-    background: #F4F4F4;
-    padding-top: 20px;
-    height: 100%;
-    display: none;
-  }
-  
-  .content hr {
-    width: 100px;
-    height: 2px;
-    background: #222;
-    margin-bottom: 5px;
-  }
-  
-  .active-content {
-    display: block;
-  }
-  
+body {
+  background: #fff;
+}
+
+.container {
+  margin: 20px auto 50px;
+}
+
+.bloc-tabs {
+  display: flex;
+  background: #f4f4f4;
+}
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: #9b9b9b;
+  border-radius: 8px 8px 0 0;
+}
+.tabs:not(:last-child) {
+  margin-right: 10px;
+}
+
+.active-tabs {
+  background: #bebdbd;
+  border-bottom: 1px solid transparent;
+  color: #fff;
+}
+
+.content-tabs {
+  flex-grow: 1;
+  height: 89%;
+}
+.content {
+  background: #f4f4f4;
+  padding-top: 20px;
+  height: 100%;
+  display: none;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.active-content {
+  display: block;
+}
