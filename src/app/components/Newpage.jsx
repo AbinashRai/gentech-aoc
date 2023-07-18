@@ -6,7 +6,7 @@ import { useState } from "react";
 const Newpage = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="h-screen">
+    <div className="h-screen"> 
       <button
         className="border-solid border-2 p-2"
         onClick={() => setIsOpen(true)}>
