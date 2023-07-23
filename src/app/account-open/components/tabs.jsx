@@ -1,7 +1,7 @@
 "use client";
 import { Fragment, useState } from "react";
 import Link from "next/link";
-import Modalpage from "@/app/components/Modalpage";
+import Modal from "@/app/components/Modal";
 
 function Tabs() {
   const [showModal, setShowModal] = useState(false);
@@ -1123,7 +1123,18 @@ function Tabs() {
           </div>
         </div>
       </div>
-      <Modalpage isVisible={showModal} onClose={() => setShowModal(false)} />
+      {showModal && (
+        <Modal>
+          <div
+            className="modal-overlay"
+            onClick={() => setShowModal(false)}></div>
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-32 w-42 bg-slate-200">
+            <h2>My Modal</h2>
+            <p>This is the content of my modal.</p>
+            <button onClick={() => setShowModal(false)}>Close Modal</button>
+          </div>
+        </Modal>
+      )}
     </Fragment>
   );
 }

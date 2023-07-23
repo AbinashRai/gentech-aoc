@@ -1,0 +1,17 @@
+import * as React from "react";
+import { createPortal } from "react-dom";
+
+export default function Modal({ children }) {
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => setMounted(true), []);
+
+  return mounted
+    ? createPortal(
+        <div className="modal">
+          <div className="modal-content">{children}</div>
+        </div>,
+        document.body
+      )
+    : null;
+}
